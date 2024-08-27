@@ -1,0 +1,31 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.nav-logo{
+    color: white;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+
+}
+.nav-list li {
+
+    color: white;
+    
+}
+
+#nav-contact{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
