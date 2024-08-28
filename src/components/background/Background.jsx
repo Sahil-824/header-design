@@ -38,4 +38,4 @@ else if(heroCount==2){
 
 }
 
-export default Background
+export default Background;

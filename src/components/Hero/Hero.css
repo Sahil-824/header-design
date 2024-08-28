@@ -1,0 +1,85 @@
+.text{
+    
+    font-size: 80px;
+    font-weight: 400;
+    color: whitesmoke;
+    line-height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.explore{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 30px;
+    width: 250px;
+    object-fit: contain;
+    bottom: 230px; 
+    padding: 10px 15px;
+    padding-right: 5px;
+    height: 50px;
+    margin-left: 100px;
+}
+.explore-more{
+
+    font-size: 20px;
+    font-weight: 200;
+    color: #282828;
+}
+.explore img{
+
+    height: 40px;
+    cursor: pointer;
+}
+
+.dots{
+
+    position: absolute;
+    bottom: 20px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.doti{
+    font-size: 25px;
+    color: white;
+}
+.orange-dot{
+    font-size: 25px;
+    color: orangered;
+}
+
+.playpause{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 230px;
+    background-color: transparent;
+    border-radius: 30px;
+    outline: 1px solid whitesmoke;
+    object-fit: contain;
+    position: absolute;
+    bottom: 30px;
+    left: 1000px;
+    height: 50px;
+}
+
+
+.playpause img{
+    height: 40px;
+    z-index: 1;
+    cursor: pointer;
+}
+.playpause p{
+
+    color: white;
+    font-weight: 200;
+}
